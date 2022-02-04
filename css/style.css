@@ -9,7 +9,13 @@
 	font-style: normal;
 	font-display: swap;
 }
-	
+@font-face {
+	font-family: "Oswald-Regular";
+	src: url("../fonts/Oswald-Regular.woff2") format("woff2"), url("../fonts/Oswald-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
 
 .block{
 	font-size: 30px;
@@ -20,6 +26,15 @@
 }
 
 .block-2{
-	padding:  10px 20px 30px 12px;
-    width: 500px;
+	padding: 40px;
+    
 }
+
+.block-3{
+	padding: 20px 30px 40px 20px;
+	font-family: "Oswald-Regular";
+	width: 300px;
+}
+ .block-4{
+	 padding: 200px;
+ }
