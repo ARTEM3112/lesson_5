@@ -1,0 +1,25 @@
+@import "null.css";
+ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+@font-face {
+	font-family: "OpenSansCondensed";
+	src: url("../fonts/OpenSansCondensed-Light.woff2") format("woff2"), url("../fonts/OpenSansCondensed-Light.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+	
+
+.block{
+	font-size: 30px;
+	text-align: center;
+	padding: 40px;
+	font-family: "OpenSansCondensed";
+	
+}
+
+.block-2{
+	padding:  10px 20px 30px 12px;
+    width: 500px;
+}
